@@ -1,10 +1,10 @@
 from sqlalchemy import create_engine
 import pandas as pd
-Server='kreezy-HP-ProBook-430-G3'
+Server='laptopname'
 Database='AdventureWorks2019'
 Driver='ODBC Driver 17 for SQL Server'
 Username='SA'
-Password='Christopher3698'
+Password='sqlserverpass'
 Database_connection=f'mssql://{Username}:{Password}@{Server}/{Database}?driver={Driver}'
 #conneting
 engine=create_engine(Database_connection)
