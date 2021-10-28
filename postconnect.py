@@ -3,7 +3,7 @@ import psycopg
 
 
 
-# conn = psycopg2.connect("dbname=suppliers port=5432 user=postgres password=postgres")
+
 
 conn = psycopg.connect(host="localhost", port = 5432, dbname="movedata", user="postgres", password="Christopher3698")
 
