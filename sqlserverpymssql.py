@@ -1,6 +1,6 @@
 import pymssql
 #connecting using pymssql
-connection=pymssql.connect(host='localhost',user="SA",password="Christopher3698",database="AdventureWorks2019")
+connection=pymssql.connect(host='localhost',user="SA",password="Yourpassword",database="AdventureWorks2019")
 #query data
 # performing query
 query="SELECT * FROM Purchasing.Vendor WHERE CreditRating<3"
