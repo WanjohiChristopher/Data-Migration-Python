@@ -5,7 +5,7 @@ import psycopg
 
 
 
-conn = psycopg.connect(host="localhost", port = 5432, dbname="movedata", user="postgres", password="Christopher3698")
+conn = psycopg.connect(host="localhost", port = 5432, dbname="movedata", user="postgres", password="Yourpassword")
 
 # Create a cursor object
 cur = conn.cursor()
