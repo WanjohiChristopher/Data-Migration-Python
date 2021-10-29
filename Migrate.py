@@ -6,8 +6,8 @@ class Databaserq:
     #creating a constructor 
     def __init__(self):
         #connecting both mssql and postgres
-        self.con=pymssql.connect(host='localhost',user="SA",password="Christopher3698",database="AdventureWorks2019")
-        self.conn=psycopg.connect(host="localhost", port = 5432, dbname="SsqlAdventureCopies", user="postgres", password="Christopher3698")
+        self.con=pymssql.connect(host='localhost',user="SA",password="Yourpassword",database="AdventureWorks2019")
+        self.conn=psycopg.connect(host="localhost", port = 5432, dbname="SsqlAdventureCopies", user="postgres", password="Yourpassword")
         
         #creating a cursor for both databases
         self.cur=self.con.cursor()
